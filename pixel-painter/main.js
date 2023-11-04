@@ -11,7 +11,7 @@ function createCells() {
     }
 }
 
-function changingCurrentColor(params) {
+function changingCurrentColor() {
     const colors = document.querySelectorAll("#palette .color");
     for (const color of colors) {
         color.addEventListener("click", () => {
